@@ -5,4 +5,24 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
-
+.container {
+  display: grid;
+  grid-gap: 9px;
+  min-width: 200px;
+  max-width: 500px;
+}
+.card {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 9px;
+  /* margin-bottom: 10px; */
+  text-overflow: clip;
+  display: grid;
+  align-items: center;
+  background-color: rgba(196, 212, 216, 0.7);
+}
+.card span:first-child {
+  color: rgb(32, 115, 218);
+  font-size: 1.5em;
+  font-weight: bold;
+}
